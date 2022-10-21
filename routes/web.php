@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('components.admin');
+    return view('backend.pages.dashboard.admin');
 
 });
 
