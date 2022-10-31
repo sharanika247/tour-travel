@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Focus Admin: Creative Admin Dashboard</title>
+    <title>Tour&Travel Management System</title>
     <!-- ================= Favicon ================== -->
     <!-- Standard -->
     <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
@@ -18,7 +18,7 @@
     <!-- Standard iPhone Touch Icon-->
     <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
     <!-- Styles -->
-    <link href="{{url('backend/pignose.css')}}" rel="stylesheet">
+    <!--<link href="{{url('backend/pignose.css')}}" rel="stylesheet">
     <link href="{{url('backend/chartist.css')}}" rel="stylesheet">
     <link href="{{url('backend/font-awesome.css')}}" rel="stylesheet">
     <link href="{{url('backend/themify-icons.css')}}" rel="stylesheet">
@@ -28,7 +28,20 @@
     <link href="{{url('backend/sidebar.css')}}" rel="stylesheet">
     <link href="{{url('backend/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{url('backend/helper.css')}}" rel="stylesheet">
-    <link href="{{url('backend/style.css')}}" rel="stylesheet">
+    <link href="{{url('backend/style.css')}}" rel="stylesheet"> -->
+
+    <link href="{{asset('admin')}}/css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/lib/chartist/chartist.min.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="{{asset('admin')}}/css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="{{asset('admin')}}/css/lib/weather-icons.css" rel="stylesheet" />
+    <link href="{{asset('admin')}}/css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/lib/helper.css" rel="stylesheet">
+    <link href="{{asset('admin')}}/css/style.css" rel="stylesheet">   
+
 </head>
 
 <body>
@@ -79,20 +92,49 @@
             </div>
         </div>
     </div>
+    
+    <!-- jquery vendor -->
+    <script src="{{asset('admin')}}/js/lib/jquery.min.js"></script>
+    <script src="{{asset('admin')}}/js/lib/jquery.nanoscroller.min.js"></script>
+    <!-- nano scroller -->
+    <script src="{{asset('admin')}}/js/lib/menubar/sidebar.js"></script>
+    <script src="{{asset('admin')}}/js/lib/preloader/pace.min.js"></script>
+    <!-- sidebar -->
+
+    <script src="{{asset('admin')}}/js/lib/bootstrap.min.js"></script>
+    <script src="{{asset('admin')}}/js/scripts.js"></script>
+    <!-- bootstrap -->
+
+    <script src="{{asset('admin')}}/js/lib/calendar-2/moment.latest.min.js"></script>
+    <script src="{{asset('admin')}}/js/lib/calendar-2/pignose.calendar.min.js"></script>
+    <script src="{{asset('admin')}}/js/lib/calendar-2/pignose.init.js"></script>
+
+
+    <script src="{{asset('admin')}}js/lib/weather/jquery.simpleWeather.min.js"></script>
+    <script src="{{asset('admin')}}js/lib/weather/weather-init.js"></script>
+    <script src="{{asset('admin')}}js/lib/circle-progress/circle-progress.min.js"></script>
+    <script src="{{asset('admin')}}js/lib/circle-progress/circle-progress-init.js"></script>
+    <script src="{{asset('admin')}}js/lib/chartist/chartist.min.js"></script>
+    <script src="{{asset('admin')}}js/lib/sparklinechart/jquery.sparkline.min.js"></script>
+    <script src="{{asset('admin')}}js/lib/sparklinechart/sparkline.init.js"></script>
+    <script src="{{asset('admin')}}js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="{{asset('admin')}}js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <!-- scripit init-->
+    <script src="{{asset('admin')}}js/dashboard2.js"></script>
 
     <!-- jquery vendor -->
-    <script src="{{url('backend/jquery.js')}}"></script>
+    <!--<script src="{{url('backend/jquery.js')}}"></script>
     <script src="{{url('backend/jquery.nanoscroller.min.js')}}"></script>
     <!-- nano scroller -->
-    <script src="{{url('backend/sidebar.js')}}"></script>
+   <!-- <script src="{{url('backend/sidebar.js')}}"></script>
     <script src="{{url('backend/pace.min.js')}}"></script>
     <!-- sidebar -->
 
-    <script src="{{url('backend/bootstrap.min.js')}}"></script>
+   <!-- <script src="{{url('backend/bootstrap.min.js')}}"></script>
     <script src="{{url('backend/script.js')}}"></script>
     <!-- bootstrap -->
 
-    <script src="{{url('backend/moment-latest.min.js')}}"></script>
+   <!-- <script src="{{url('backend/moment-latest.min.js')}}"></script>
     <script src="{{url('backend/pignose.calendar.min.js')}}"></script>
     <script src="{{url('backend/pignose.init.js')}}"></script>
 
@@ -106,7 +148,7 @@
     <script src="{{url('backend/sparkline.init.js')}}"></script>
     <script src="{{url('backend/owl.carousel.min.js')}}"></script>
     <script src="{{url('backend/owl.carousel-init.js')}}"></script>
-    <!-- scripit init-->
+    <!-- scripit init--> -->
 
 </body>
 

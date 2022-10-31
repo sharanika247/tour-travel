@@ -1,3 +1,4 @@
+
 <div class="header">
         <div class="container-fluid">
             <div class="row">
@@ -12,7 +13,7 @@
                     <div class="float-right">
                         <div class="dropdown dib">
                             <div class="header-icon" data-toggle="dropdown">
-                                <i class="ti-bell"></i>
+                                <!--<i class="ti-bell"></i>-->
                                 <div class="drop-down dropdown-menu dropdown-menu-right">
                                     <div class="dropdown-content-heading">
                                         <span class="text-left">Recent Notifications</span>
@@ -79,7 +80,7 @@
                         </div>
                         <div class="dropdown dib">
                             <div class="header-icon" data-toggle="dropdown">
-                                <i class="ti-email"></i>
+                               <!--<i class="ti-email"></i>-->
                                 <div class="drop-down dropdown-menu dropdown-menu-right">
                                     <div class="dropdown-content-heading">
                                         <span class="text-left">2 New Messages</span>
@@ -140,7 +141,7 @@
                                                             ...</div>
                                                     </div>
                                                 </a>
-                                            </li>
+                                            </li>-->
                                             <li class="text-center">
                                                 <a href="#" class="more-link">See All</a>
                                             </li>
@@ -151,14 +152,11 @@
                         </div>
                         <div class="dropdown dib">
                             <div class="header-icon" data-toggle="dropdown">
-                                <span class="user-avatar">John
+                                <span class="user-avatar">Sharanika 
                                     <i class="ti-angle-down f-s-10"></i>
                                 </span>
                                 <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
-                                    <div class="dropdown-content-heading">
-                                        <span class="text-left">Upgrade Now</span>
-                                        <p class="trial-day">30 Days Trail</p>
-                                    </div>
+                                    <div class="dropdown-content-heading"></div>
                                     <div class="dropdown-content-body">
                                         <ul>
                                             <li>
@@ -168,12 +166,7 @@
                                                 </a>
                                             </li>
 
-                                            <li>
-                                                <a href="#">
-                                                    <i class="ti-email"></i>
-                                                    <span>Inbox</span>
-                                                </a>
-                                            </li>
+                                            
                                             <li>
                                                 <a href="#">
                                                     <i class="ti-settings"></i>
@@ -181,12 +174,7 @@
                                                 </a>
                                             </li>
 
-                                            <li>
-                                                <a href="#">
-                                                    <i class="ti-lock"></i>
-                                                    <span>Lock Screen</span>
-                                                </a>
-                                            </li>
+                                           
                                             <li>
                                                 <a href="#">
                                                     <i class="ti-power-off"></i>
